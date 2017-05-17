@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D13A389D1EB02F0A00811885 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A389C1EB02F0A00811885 /* main.m */; };
+		D13A38A01EB02F0A00811885 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A389F1EB02F0A00811885 /* AppDelegate.m */; };
+		D13A38A31EB02F0A00811885 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A38A21EB02F0A00811885 /* ViewController.m */; };
+		D13A38A61EB02F0A00811885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13A38A41EB02F0A00811885 /* Main.storyboard */; };
+		D13A38A81EB02F0A00811885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13A38A71EB02F0A00811885 /* Assets.xcassets */; };
+		D13A38AB1EB02F0A00811885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13A38A91EB02F0A00811885 /* LaunchScreen.storyboard */; };
+		D13A38B61EB02F0A00811885 /* LFQRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A38B51EB02F0A00811885 /* LFQRCodeTests.m */; };
+		D13A38C11EB02F0A00811885 /* LFQRCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A38C01EB02F0A00811885 /* LFQRCodeUITests.m */; };
+		D13A38D11EB02F4300811885 /* LFQRCodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A38D01EB02F4300811885 /* LFQRCodeScanner.m */; };
+		D13A38D41EB0317800811885 /* ScanCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A38D31EB0317800811885 /* ScanCodeController.m */; };
+		D13A38D71EB031A800811885 /* CreateQRCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A38D61EB031A800811885 /* CreateQRCodeController.m */; };
+		D13A38D91EB036E300811885 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D13A38D81EB036E300811885 /* line@2x.png */; };
+		D13A38DC1EB0387D00811885 /* LFQRCodeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A38DB1EB0387D00811885 /* LFQRCodeUtil.m */; };
+		D1D712A31EC99B8600803E61 /* pickColor.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D712A21EC99B8600803E61 /* pickColor.png */; };
+		D1D712A91ECA896500803E61 /* UIColor+LF.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D712A81ECA896500803E61 /* UIColor+LF.m */; };
+		D1D712AC1ECA8BEF00803E61 /* LFImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D712AB1ECA8BEF00803E61 /* LFImagePicker.m */; };
+		D1D712B01ECB044E00803E61 /* SettingColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D712AE1ECB044E00803E61 /* SettingColorViewController.m */; };
+		D1D712B11ECB044E00803E61 /* SettingColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1D712AF1ECB044E00803E61 /* SettingColorViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D13A38B21EB02F0A00811885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13A38901EB02F0A00811885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D13A38971EB02F0A00811885;
+			remoteInfo = LFQRCode;
+		};
+		D13A38BD1EB02F0A00811885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13A38901EB02F0A00811885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D13A38971EB02F0A00811885;
+			remoteInfo = LFQRCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D13A38981EB02F0A00811885 /* LFQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13A389C1EB02F0A00811885 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D13A389E1EB02F0A00811885 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D13A389F1EB02F0A00811885 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D13A38A11EB02F0A00811885 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D13A38A21EB02F0A00811885 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D13A38A51EB02F0A00811885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D13A38A71EB02F0A00811885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D13A38AA1EB02F0A00811885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D13A38AC1EB02F0A00811885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13A38B11EB02F0A00811885 /* LFQRCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFQRCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13A38B51EB02F0A00811885 /* LFQRCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFQRCodeTests.m; sourceTree = "<group>"; };
+		D13A38B71EB02F0A00811885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13A38BC1EB02F0A00811885 /* LFQRCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFQRCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13A38C01EB02F0A00811885 /* LFQRCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFQRCodeUITests.m; sourceTree = "<group>"; };
+		D13A38C21EB02F0A00811885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13A38CF1EB02F4300811885 /* LFQRCodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFQRCodeScanner.h; sourceTree = "<group>"; };
+		D13A38D01EB02F4300811885 /* LFQRCodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFQRCodeScanner.m; sourceTree = "<group>"; };
+		D13A38D21EB0317800811885 /* ScanCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanCodeController.h; sourceTree = "<group>"; };
+		D13A38D31EB0317800811885 /* ScanCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanCodeController.m; sourceTree = "<group>"; };
+		D13A38D51EB031A800811885 /* CreateQRCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateQRCodeController.h; sourceTree = "<group>"; };
+		D13A38D61EB031A800811885 /* CreateQRCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateQRCodeController.m; sourceTree = "<group>"; };
+		D13A38D81EB036E300811885 /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		D13A38DA1EB0387D00811885 /* LFQRCodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFQRCodeUtil.h; sourceTree = "<group>"; };
+		D13A38DB1EB0387D00811885 /* LFQRCodeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFQRCodeUtil.m; sourceTree = "<group>"; };
+		D1D712A21EC99B8600803E61 /* pickColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickColor.png; sourceTree = "<group>"; };
+		D1D712A71ECA896500803E61 /* UIColor+LF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LF.h"; sourceTree = "<group>"; };
+		D1D712A81ECA896500803E61 /* UIColor+LF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LF.m"; sourceTree = "<group>"; };
+		D1D712AA1ECA8BEF00803E61 /* LFImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFImagePicker.h; sourceTree = "<group>"; };
+		D1D712AB1ECA8BEF00803E61 /* LFImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFImagePicker.m; sourceTree = "<group>"; };
+		D1D712AD1ECB044E00803E61 /* SettingColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingColorViewController.h; sourceTree = "<group>"; };
+		D1D712AE1ECB044E00803E61 /* SettingColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingColorViewController.m; sourceTree = "<group>"; };
+		D1D712AF1ECB044E00803E61 /* SettingColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingColorViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D13A38951EB02F0A00811885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13A38AE1EB02F0A00811885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13A38B91EB02F0A00811885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D13A388F1EB02F0A00811885 = {
+			isa = PBXGroup;
+			children = (
+				D13A389A1EB02F0A00811885 /* LFQRCode */,
+				D13A38B41EB02F0A00811885 /* LFQRCodeTests */,
+				D13A38BF1EB02F0A00811885 /* LFQRCodeUITests */,
+				D13A38991EB02F0A00811885 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D13A38991EB02F0A00811885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D13A38981EB02F0A00811885 /* LFQRCode.app */,
+				D13A38B11EB02F0A00811885 /* LFQRCodeTests.xctest */,
+				D13A38BC1EB02F0A00811885 /* LFQRCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D13A389A1EB02F0A00811885 /* LFQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				D13A38CE1EB02F3200811885 /* LFQRCode */,
+				D1D712A41ECA872300803E61 /* LFImagePicker */,
+				D1D712A51ECA876900803E61 /* Category */,
+				D13A389E1EB02F0A00811885 /* AppDelegate.h */,
+				D13A389F1EB02F0A00811885 /* AppDelegate.m */,
+				D13A38A11EB02F0A00811885 /* ViewController.h */,
+				D13A38A21EB02F0A00811885 /* ViewController.m */,
+				D13A38D21EB0317800811885 /* ScanCodeController.h */,
+				D13A38D31EB0317800811885 /* ScanCodeController.m */,
+				D13A38D51EB031A800811885 /* CreateQRCodeController.h */,
+				D13A38D61EB031A800811885 /* CreateQRCodeController.m */,
+				D1D712AD1ECB044E00803E61 /* SettingColorViewController.h */,
+				D1D712AE1ECB044E00803E61 /* SettingColorViewController.m */,
+				D1D712AF1ECB044E00803E61 /* SettingColorViewController.xib */,
+				D13A38D81EB036E300811885 /* line@2x.png */,
+				D1D712A21EC99B8600803E61 /* pickColor.png */,
+				D13A38A41EB02F0A00811885 /* Main.storyboard */,
+				D13A38A71EB02F0A00811885 /* Assets.xcassets */,
+				D13A38A91EB02F0A00811885 /* LaunchScreen.storyboard */,
+				D13A38AC1EB02F0A00811885 /* Info.plist */,
+				D13A389B1EB02F0A00811885 /* Supporting Files */,
+			);
+			path = LFQRCode;
+			sourceTree = "<group>";
+		};
+		D13A389B1EB02F0A00811885 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D13A389C1EB02F0A00811885 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D13A38B41EB02F0A00811885 /* LFQRCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D13A38B51EB02F0A00811885 /* LFQRCodeTests.m */,
+				D13A38B71EB02F0A00811885 /* Info.plist */,
+			);
+			path = LFQRCodeTests;
+			sourceTree = "<group>";
+		};
+		D13A38BF1EB02F0A00811885 /* LFQRCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D13A38C01EB02F0A00811885 /* LFQRCodeUITests.m */,
+				D13A38C21EB02F0A00811885 /* Info.plist */,
+			);
+			path = LFQRCodeUITests;
+			sourceTree = "<group>";
+		};
+		D13A38CE1EB02F3200811885 /* LFQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				D13A38CF1EB02F4300811885 /* LFQRCodeScanner.h */,
+				D13A38D01EB02F4300811885 /* LFQRCodeScanner.m */,
+				D13A38DA1EB0387D00811885 /* LFQRCodeUtil.h */,
+				D13A38DB1EB0387D00811885 /* LFQRCodeUtil.m */,
+			);
+			path = LFQRCode;
+			sourceTree = "<group>";
+		};
+		D1D712A41ECA872300803E61 /* LFImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				D1D712AA1ECA8BEF00803E61 /* LFImagePicker.h */,
+				D1D712AB1ECA8BEF00803E61 /* LFImagePicker.m */,
+			);
+			name = LFImagePicker;
+			path = LFQRCode/LFImagePicker;
+			sourceTree = "<group>";
+		};
+		D1D712A51ECA876900803E61 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D1D712A71ECA896500803E61 /* UIColor+LF.h */,
+				D1D712A81ECA896500803E61 /* UIColor+LF.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D13A38971EB02F0A00811885 /* LFQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13A38C51EB02F0A00811885 /* Build configuration list for PBXNativeTarget "LFQRCode" */;
+			buildPhases = (
+				D13A38941EB02F0A00811885 /* Sources */,
+				D13A38951EB02F0A00811885 /* Frameworks */,
+				D13A38961EB02F0A00811885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFQRCode;
+			productName = LFQRCode;
+			productReference = D13A38981EB02F0A00811885 /* LFQRCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D13A38B01EB02F0A00811885 /* LFQRCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13A38C81EB02F0A00811885 /* Build configuration list for PBXNativeTarget "LFQRCodeTests" */;
+			buildPhases = (
+				D13A38AD1EB02F0A00811885 /* Sources */,
+				D13A38AE1EB02F0A00811885 /* Frameworks */,
+				D13A38AF1EB02F0A00811885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13A38B31EB02F0A00811885 /* PBXTargetDependency */,
+			);
+			name = LFQRCodeTests;
+			productName = LFQRCodeTests;
+			productReference = D13A38B11EB02F0A00811885 /* LFQRCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D13A38BB1EB02F0A00811885 /* LFQRCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13A38CB1EB02F0A00811885 /* Build configuration list for PBXNativeTarget "LFQRCodeUITests" */;
+			buildPhases = (
+				D13A38B81EB02F0A00811885 /* Sources */,
+				D13A38B91EB02F0A00811885 /* Frameworks */,
+				D13A38BA1EB02F0A00811885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13A38BE1EB02F0A00811885 /* PBXTargetDependency */,
+			);
+			name = LFQRCodeUITests;
+			productName = LFQRCodeUITests;
+			productReference = D13A38BC1EB02F0A00811885 /* LFQRCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D13A38901EB02F0A00811885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "张林峰";
+				TargetAttributes = {
+					D13A38971EB02F0A00811885 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = D975HMHLA6;
+						ProvisioningStyle = Automatic;
+					};
+					D13A38B01EB02F0A00811885 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D13A38971EB02F0A00811885;
+					};
+					D13A38BB1EB02F0A00811885 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D13A38971EB02F0A00811885;
+					};
+				};
+			};
+			buildConfigurationList = D13A38931EB02F0A00811885 /* Build configuration list for PBXProject "LFQRCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D13A388F1EB02F0A00811885;
+			productRefGroup = D13A38991EB02F0A00811885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D13A38971EB02F0A00811885 /* LFQRCode */,
+				D13A38B01EB02F0A00811885 /* LFQRCodeTests */,
+				D13A38BB1EB02F0A00811885 /* LFQRCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D13A38961EB02F0A00811885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13A38D91EB036E300811885 /* line@2x.png in Resources */,
+				D13A38AB1EB02F0A00811885 /* LaunchScreen.storyboard in Resources */,
+				D1D712A31EC99B8600803E61 /* pickColor.png in Resources */,
+				D13A38A81EB02F0A00811885 /* Assets.xcassets in Resources */,
+				D13A38A61EB02F0A00811885 /* Main.storyboard in Resources */,
+				D1D712B11ECB044E00803E61 /* SettingColorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13A38AF1EB02F0A00811885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13A38BA1EB02F0A00811885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D13A38941EB02F0A00811885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13A38DC1EB0387D00811885 /* LFQRCodeUtil.m in Sources */,
+				D1D712B01ECB044E00803E61 /* SettingColorViewController.m in Sources */,
+				D1D712A91ECA896500803E61 /* UIColor+LF.m in Sources */,
+				D1D712AC1ECA8BEF00803E61 /* LFImagePicker.m in Sources */,
+				D13A38A31EB02F0A00811885 /* ViewController.m in Sources */,
+				D13A38D41EB0317800811885 /* ScanCodeController.m in Sources */,
+				D13A38A01EB02F0A00811885 /* AppDelegate.m in Sources */,
+				D13A38D11EB02F4300811885 /* LFQRCodeScanner.m in Sources */,
+				D13A389D1EB02F0A00811885 /* main.m in Sources */,
+				D13A38D71EB031A800811885 /* CreateQRCodeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13A38AD1EB02F0A00811885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13A38B61EB02F0A00811885 /* LFQRCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13A38B81EB02F0A00811885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13A38C11EB02F0A00811885 /* LFQRCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D13A38B31EB02F0A00811885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D13A38971EB02F0A00811885 /* LFQRCode */;
+			targetProxy = D13A38B21EB02F0A00811885 /* PBXContainerItemProxy */;
+		};
+		D13A38BE1EB02F0A00811885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D13A38971EB02F0A00811885 /* LFQRCode */;
+			targetProxy = D13A38BD1EB02F0A00811885 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D13A38A41EB02F0A00811885 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D13A38A51EB02F0A00811885 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D13A38A91EB02F0A00811885 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D13A38AA1EB02F0A00811885 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D13A38C31EB02F0A00811885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D13A38C41EB02F0A00811885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D13A38C61EB02F0A00811885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D975HMHLA6;
+				INFOPLIST_FILE = LFQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D13A38C71EB02F0A00811885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D975HMHLA6;
+				INFOPLIST_FILE = LFQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D13A38C91EB02F0A00811885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LFQRCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFQRCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFQRCode.app/LFQRCode";
+			};
+			name = Debug;
+		};
+		D13A38CA1EB02F0A00811885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LFQRCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFQRCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFQRCode.app/LFQRCode";
+			};
+			name = Release;
+		};
+		D13A38CC1EB02F0A00811885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LFQRCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFQRCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LFQRCode;
+			};
+			name = Debug;
+		};
+		D13A38CD1EB02F0A00811885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LFQRCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFQRCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LFQRCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D13A38931EB02F0A00811885 /* Build configuration list for PBXProject "LFQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13A38C31EB02F0A00811885 /* Debug */,
+				D13A38C41EB02F0A00811885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13A38C51EB02F0A00811885 /* Build configuration list for PBXNativeTarget "LFQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13A38C61EB02F0A00811885 /* Debug */,
+				D13A38C71EB02F0A00811885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13A38C81EB02F0A00811885 /* Build configuration list for PBXNativeTarget "LFQRCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13A38C91EB02F0A00811885 /* Debug */,
+				D13A38CA1EB02F0A00811885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13A38CB1EB02F0A00811885 /* Build configuration list for PBXNativeTarget "LFQRCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13A38CC1EB02F0A00811885 /* Debug */,
+				D13A38CD1EB02F0A00811885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D13A38901EB02F0A00811885 /* Project object */;
+}
