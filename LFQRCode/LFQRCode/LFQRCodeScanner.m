@@ -63,6 +63,8 @@
  */
 - (void)start {
     [self.session startRunning];
+
+   [self startAnimation];
 }
 
 /**
@@ -70,7 +72,7 @@
  */
 - (void)stop {
     [self.session stopRunning];
-    [self pauseLayer:self.imgLine.layer];
+    [self.imgLine.layer removeAllAnimations];
 }
 
 #pragma mark - 私有方法
@@ -121,13 +123,6 @@
     translation.repeatCount = HUGE_VALF;
     translation.autoreverses = YES;
     [self.imgLine.layer addAnimation:translation forKey:@"translation"];
-}
-
-- (void)pauseLayer:(CALayer*)layer
-{
-    CFTimeInterval pausedTime = [layer convertTime:CACurrentMediaTime() fromLayer:nil];
-    layer.speed = 0.0;
-    layer.timeOffset = pausedTime;
 }
 
 #pragma mark - 懒加载
